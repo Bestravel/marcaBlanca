@@ -1,0 +1,28 @@
+[{
+	"sq":"1",
+	"url":"http://clientesnabica.com/peoplepass/web/estar-bien/amazonas/",
+	"id":"P1",
+	"img":"http://clientesnabica.com/peoplepass/web/wp-content/uploads/2015/10/2880x1800.jpg",
+	"title":"PROMOCION SAN ANDRES",
+	"duracion":"5 Dias 4 Noches",
+	"fecha":"24 al 28 de Noviembre de 2015",
+	"costo":"$1,079,000.00"
+},{
+	"sq":"2",
+	"url":"http://clientesnabica.com/peoplepass/web/estar-bien/san-francisco-bridge/",
+	"id":"P2",
+	"img":"http://clientesnabica.com/peoplepass/web/wp-content/uploads/2015/11/bannerdestino3.jpg",
+	"title":"SANTUARIO DE LAS LAJAS",
+	"duracion":"2 Dias 1 Noche",
+	"fecha":"15 al 20 de Enero de 2016",
+	"costo":"$638.000"
+},{
+	"sq":"3",
+	"url":"http://clientesnabica.com/peoplepass/web/estar-bien/choco/",
+	"id":"P3",
+	"img":"http://clientesnabica.com/peoplepass/web/wp-content/uploads/2015/10/Screen-Shot-2015-11-09-at-5.04.11-PM.png",
+	"title":"EJE CAFETERO EN 2016",
+	"duracion":"4 Dias 3 Noches",
+	"fecha":"6 al 15 de Enero de 2016",
+	"costo":"$635.000"
+}]
