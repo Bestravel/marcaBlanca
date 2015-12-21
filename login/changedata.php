@@ -1,4 +1,22 @@
 <?php
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Marca Blanca                                                                    
+                                             
+@package Marcablanca
+@subpackage login
+@author Gabriel España - Negocios Electrónicos - Bestravel  <dir.online@bestravel.travel>
+@description Programa que recibe un token si es el generado abre formulario de carga y verificación sino 
+             devuelve
+
+Fecha-ini:05-nov-2015                                                           
+Fecha-fin:21-dic-2015                                                           
+Cliente: People Pass                                         
+
+@param varchar tk  token generado en el log-in.php 
+@return array POST arreglo con los datos de (URL de imagen, titulo plan, duración del plan,  fechas, costo y
+                   URL del link de destino) x 3
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/    
 $tk=$_GET[tk];
 //echo $tk."<br>";
 $las=substr($tk, -1);//echo "las:".$las."<br>";
