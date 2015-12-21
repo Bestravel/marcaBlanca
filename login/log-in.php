@@ -14,6 +14,7 @@ Cliente: People Pass
 
 @param varchar user  usuario
 @param varchar pass  clave en claro                                                  
+@return varchar tk token para ack de la pagina de ingreso
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/    
 if ($_POST['user']=='CAGUDELO'){

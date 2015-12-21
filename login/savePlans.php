@@ -1,4 +1,20 @@
 <?php
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Marca Blanca                                                                    
+                                             
+@package Marcablanca
+@subpackage login
+@author Gabriel España - Negocios Electrónicos - Bestravel  <dir.online@bestravel.travel>
+@description Graba el archivo propios.json y deja el anterior archivo como propios-YYYYMMDD.json
+
+Fecha-ini:05-nov-2015                                                           
+Fecha-fin:21-dic-2015                                                           
+Cliente: People Pass                                         
+
+@param arreglo POST arreglo con los datos de (URL de imagen, titulo plan, duración del plan,  fechas, costo 
+                    y URL del link de destino) x 3
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/    
 //1. revisar datos en img, title, url
 $review=0;$chk='';
 if (empty($_POST[img1])){ $review++;$chk.=' imagen 1'; }
